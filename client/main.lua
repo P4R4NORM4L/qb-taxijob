@@ -571,7 +571,7 @@ function setupTarget()
                         type = "client",
                         event = "qb-taxijob:client:requestcab",  
                         icon = "fas fa-sign-in-alt",
-                        label = '🚕 Request Taxi Cab',
+                        label = 'Request Taxi Caba',
                         job = "taxi",
                     }
                 },
@@ -774,7 +774,7 @@ CreateThread(function()
                 sleep = 7
                 DrawText3D(Config.BossMenu.x, Config.BossMenu.y,Config.BossMenu.z, "~g~E~w~ - Boss Menu")
                 if IsControlJustReleased(0, 38) then
-                   TriggerEvent('qb-bossmenu:client:OpenMenu')
+                   TriggerEvent('qb-bossmenu:client:forceMenu')
                 end
             end
         end
